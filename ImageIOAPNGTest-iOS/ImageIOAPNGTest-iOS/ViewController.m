@@ -30,7 +30,7 @@
 // image1.apng, original from the Web, works on both iOS and macOS
 - (void)testAPNG1 {
     // Load
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"image1" ofType:@"apng"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"image1" ofType:@"png"];
     NSData *data = [NSData dataWithContentsOfFile:path];
     NSAssert(data, @"data");
     CGImageSourceRef source = CGImageSourceCreateWithData((__bridge CFDataRef)data, NULL);
@@ -72,7 +72,7 @@
 // image2.apng, original from Web, works on iOS but fail on macOS
 - (void)testAPNG3 {
     // Load
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"image2" ofType:@"apng"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"image2" ofType:@"png"];
     NSData *data = [NSData dataWithContentsOfFile:path];
     NSAssert(data, @"data");
     CGImageSourceRef source = CGImageSourceCreateWithData((__bridge CFDataRef)data, NULL);
