@@ -3,9 +3,9 @@ Image/IO Framework for APNG test
 
 # What for
 
-I found that Image/IO framework support [APNG](https://en.wikipedia.org/wiki/APNG) image format from iOS 8 and macOS 10.10. However, it seems that the implementation on macOS only contains issue to correctlly decode some valid APNG. 
+I find that Image/IO framework support [APNG](https://en.wikipedia.org/wiki/APNG) image format from iOS 8 and macOS 10.10. However, it seems that the implementation on macOS contains issue to correctlly decode some valid APNG. 
 
-I find the some valid APNG files(You can check in Chrome for Mac broswer), which the binary files contains multiple `fdAT` chunk between animation frames may cause macOS parse failed. However, it works from iOS 8 to iOS 11. Only the chunk only contains one `fcTL` and `fdAT` each frame can be decoded. 
+Some valid APNG files(You can check in Chrome for Mac broswer), which the binary files contains multiple `fdAT` chunk between animation frames may cause macOS parse failed. However, it works from iOS 8 to iOS 11. Only the chunk only contains one `fcTL` and `fdAT` each frame can be decoded. 
 
 This does not respect to the APNG specification which allow multiple `fdAT` trunk between frames. The specification is here : [APNG_Specification](https://wiki.mozilla.org/APNG_Specification)
 
@@ -33,4 +33,4 @@ It seems that Image/IO's `PNGReadPlugin` could not parse the `fcTL` sequence num
 
 # How to run
 
-No any dependency expect Image/IO framework itself, just download and open `ImageIOAPNGTest.xcworkspace`, choose iOS or macOS target to build.
+No dependency except Image/IO framework itself, just download and open `ImageIOAPNGTest.xcworkspace`, choose iOS or macOS target to build.
