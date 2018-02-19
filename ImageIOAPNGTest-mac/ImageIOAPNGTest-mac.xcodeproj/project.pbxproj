@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32B66A23203A80F400E06B64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B66A22203A80F400E06B64 /* AppDelegate.m */; };
+		32B66A26203A80F400E06B64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B66A25203A80F400E06B64 /* ViewController.m */; };
+		32B66A28203A80F400E06B64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32B66A27203A80F400E06B64 /* Assets.xcassets */; };
+		32B66A2B203A80F400E06B64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32B66A29203A80F400E06B64 /* Main.storyboard */; };
+		32B66A2E203A80F400E06B64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B66A2D203A80F400E06B64 /* main.m */; };
+		32B66A39203A80F400E06B64 /* ImageIOAPNGTest_macTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B66A38203A80F400E06B64 /* ImageIOAPNGTest_macTests.m */; };
+		32B66A44203A80F400E06B64 /* ImageIOAPNGTest_macUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B66A43203A80F400E06B64 /* ImageIOAPNGTest_macUITests.m */; };
+		32B66A5C203A869300E06B64 /* image1.apng in Resources */ = {isa = PBXBuildFile; fileRef = 32B66A59203A869300E06B64 /* image1.apng */; };
+		32B66A5D203A869300E06B64 /* image1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 32B66A5A203A869300E06B64 /* image1.gif */; };
+		32B66A5E203A869300E06B64 /* image2.apng in Resources */ = {isa = PBXBuildFile; fileRef = 32B66A5B203A869300E06B64 /* image2.apng */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32B66A35203A80F400E06B64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32B66A16203A80F400E06B64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32B66A1D203A80F400E06B64;
+			remoteInfo = "ImageIOAPNGTest-mac";
+		};
+		32B66A40203A80F400E06B64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32B66A16203A80F400E06B64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32B66A1D203A80F400E06B64;
+			remoteInfo = "ImageIOAPNGTest-mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32B66A1E203A80F400E06B64 /* ImageIOAPNGTest-mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ImageIOAPNGTest-mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B66A21203A80F400E06B64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32B66A22203A80F400E06B64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32B66A24203A80F400E06B64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		32B66A25203A80F400E06B64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		32B66A27203A80F400E06B64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32B66A2A203A80F400E06B64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32B66A2C203A80F400E06B64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32B66A2D203A80F400E06B64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32B66A2F203A80F400E06B64 /* ImageIOAPNGTest_mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ImageIOAPNGTest_mac.entitlements; sourceTree = "<group>"; };
+		32B66A34203A80F400E06B64 /* ImageIOAPNGTest-macTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ImageIOAPNGTest-macTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B66A38203A80F400E06B64 /* ImageIOAPNGTest_macTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageIOAPNGTest_macTests.m; sourceTree = "<group>"; };
+		32B66A3A203A80F400E06B64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32B66A3F203A80F400E06B64 /* ImageIOAPNGTest-macUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ImageIOAPNGTest-macUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B66A43203A80F400E06B64 /* ImageIOAPNGTest_macUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageIOAPNGTest_macUITests.m; sourceTree = "<group>"; };
+		32B66A45203A80F400E06B64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32B66A59203A869300E06B64 /* image1.apng */ = {isa = PBXFileReference; lastKnownFileType = file; path = image1.apng; sourceTree = "<group>"; };
+		32B66A5A203A869300E06B64 /* image1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = image1.gif; sourceTree = "<group>"; };
+		32B66A5B203A869300E06B64 /* image2.apng */ = {isa = PBXFileReference; lastKnownFileType = file; path = image2.apng; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32B66A1B203A80F400E06B64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B66A31203A80F400E06B64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B66A3C203A80F400E06B64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32B66A15203A80F400E06B64 = {
+			isa = PBXGroup;
+			children = (
+				32B66A20203A80F400E06B64 /* ImageIOAPNGTest-mac */,
+				32B66A37203A80F400E06B64 /* ImageIOAPNGTest-macTests */,
+				32B66A42203A80F400E06B64 /* ImageIOAPNGTest-macUITests */,
+				32B66A1F203A80F400E06B64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32B66A1F203A80F400E06B64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32B66A1E203A80F400E06B64 /* ImageIOAPNGTest-mac.app */,
+				32B66A34203A80F400E06B64 /* ImageIOAPNGTest-macTests.xctest */,
+				32B66A3F203A80F400E06B64 /* ImageIOAPNGTest-macUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32B66A20203A80F400E06B64 /* ImageIOAPNGTest-mac */ = {
+			isa = PBXGroup;
+			children = (
+				32B66A21203A80F400E06B64 /* AppDelegate.h */,
+				32B66A22203A80F400E06B64 /* AppDelegate.m */,
+				32B66A24203A80F400E06B64 /* ViewController.h */,
+				32B66A25203A80F400E06B64 /* ViewController.m */,
+				32B66A27203A80F400E06B64 /* Assets.xcassets */,
+				32B66A58203A869300E06B64 /* Images */,
+				32B66A29203A80F400E06B64 /* Main.storyboard */,
+				32B66A2C203A80F400E06B64 /* Info.plist */,
+				32B66A2D203A80F400E06B64 /* main.m */,
+				32B66A2F203A80F400E06B64 /* ImageIOAPNGTest_mac.entitlements */,
+			);
+			path = "ImageIOAPNGTest-mac";
+			sourceTree = "<group>";
+		};
+		32B66A37203A80F400E06B64 /* ImageIOAPNGTest-macTests */ = {
+			isa = PBXGroup;
+			children = (
+				32B66A38203A80F400E06B64 /* ImageIOAPNGTest_macTests.m */,
+				32B66A3A203A80F400E06B64 /* Info.plist */,
+			);
+			path = "ImageIOAPNGTest-macTests";
+			sourceTree = "<group>";
+		};
+		32B66A42203A80F400E06B64 /* ImageIOAPNGTest-macUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32B66A43203A80F400E06B64 /* ImageIOAPNGTest_macUITests.m */,
+				32B66A45203A80F400E06B64 /* Info.plist */,
+			);
+			path = "ImageIOAPNGTest-macUITests";
+			sourceTree = "<group>";
+		};
+		32B66A58203A869300E06B64 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				32B66A59203A869300E06B64 /* image1.apng */,
+				32B66A5A203A869300E06B64 /* image1.gif */,
+				32B66A5B203A869300E06B64 /* image2.apng */,
+			);
+			name = Images;
+			path = ../../Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32B66A1D203A80F400E06B64 /* ImageIOAPNGTest-mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32B66A48203A80F400E06B64 /* Build configuration list for PBXNativeTarget "ImageIOAPNGTest-mac" */;
+			buildPhases = (
+				32B66A1A203A80F400E06B64 /* Sources */,
+				32B66A1B203A80F400E06B64 /* Frameworks */,
+				32B66A1C203A80F400E06B64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ImageIOAPNGTest-mac";
+			productName = "ImageIOAPNGTest-mac";
+			productReference = 32B66A1E203A80F400E06B64 /* ImageIOAPNGTest-mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32B66A33203A80F400E06B64 /* ImageIOAPNGTest-macTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32B66A4B203A80F400E06B64 /* Build configuration list for PBXNativeTarget "ImageIOAPNGTest-macTests" */;
+			buildPhases = (
+				32B66A30203A80F400E06B64 /* Sources */,
+				32B66A31203A80F400E06B64 /* Frameworks */,
+				32B66A32203A80F400E06B64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32B66A36203A80F400E06B64 /* PBXTargetDependency */,
+			);
+			name = "ImageIOAPNGTest-macTests";
+			productName = "ImageIOAPNGTest-macTests";
+			productReference = 32B66A34203A80F400E06B64 /* ImageIOAPNGTest-macTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32B66A3E203A80F400E06B64 /* ImageIOAPNGTest-macUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32B66A4E203A80F400E06B64 /* Build configuration list for PBXNativeTarget "ImageIOAPNGTest-macUITests" */;
+			buildPhases = (
+				32B66A3B203A80F400E06B64 /* Sources */,
+				32B66A3C203A80F400E06B64 /* Frameworks */,
+				32B66A3D203A80F400E06B64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32B66A41203A80F400E06B64 /* PBXTargetDependency */,
+			);
+			name = "ImageIOAPNGTest-macUITests";
+			productName = "ImageIOAPNGTest-macUITests";
+			productReference = 32B66A3F203A80F400E06B64 /* ImageIOAPNGTest-macUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32B66A16203A80F400E06B64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = lizhuoli;
+				TargetAttributes = {
+					32B66A1D203A80F400E06B64 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					32B66A33203A80F400E06B64 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 32B66A1D203A80F400E06B64;
+					};
+					32B66A3E203A80F400E06B64 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 32B66A1D203A80F400E06B64;
+					};
+				};
+			};
+			buildConfigurationList = 32B66A19203A80F400E06B64 /* Build configuration list for PBXProject "ImageIOAPNGTest-mac" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32B66A15203A80F400E06B64;
+			productRefGroup = 32B66A1F203A80F400E06B64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32B66A1D203A80F400E06B64 /* ImageIOAPNGTest-mac */,
+				32B66A33203A80F400E06B64 /* ImageIOAPNGTest-macTests */,
+				32B66A3E203A80F400E06B64 /* ImageIOAPNGTest-macUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32B66A1C203A80F400E06B64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B66A5E203A869300E06B64 /* image2.apng in Resources */,
+				32B66A28203A80F400E06B64 /* Assets.xcassets in Resources */,
+				32B66A2B203A80F400E06B64 /* Main.storyboard in Resources */,
+				32B66A5D203A869300E06B64 /* image1.gif in Resources */,
+				32B66A5C203A869300E06B64 /* image1.apng in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B66A32203A80F400E06B64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B66A3D203A80F400E06B64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32B66A1A203A80F400E06B64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B66A26203A80F400E06B64 /* ViewController.m in Sources */,
+				32B66A2E203A80F400E06B64 /* main.m in Sources */,
+				32B66A23203A80F400E06B64 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B66A30203A80F400E06B64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B66A39203A80F400E06B64 /* ImageIOAPNGTest_macTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B66A3B203A80F400E06B64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B66A44203A80F400E06B64 /* ImageIOAPNGTest_macUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32B66A36203A80F400E06B64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32B66A1D203A80F400E06B64 /* ImageIOAPNGTest-mac */;
+			targetProxy = 32B66A35203A80F400E06B64 /* PBXContainerItemProxy */;
+		};
+		32B66A41203A80F400E06B64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32B66A1D203A80F400E06B64 /* ImageIOAPNGTest-mac */;
+			targetProxy = 32B66A40203A80F400E06B64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32B66A29203A80F400E06B64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32B66A2A203A80F400E06B64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32B66A46203A80F400E06B64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		32B66A47203A80F400E06B64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		32B66A49203A80F400E06B64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "ImageIOAPNGTest-mac/ImageIOAPNGTest_mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ImageIOAPNGTest-mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dreampiggy.ImageIOAPNGTest-mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32B66A4A203A80F400E06B64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "ImageIOAPNGTest-mac/ImageIOAPNGTest_mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ImageIOAPNGTest-mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dreampiggy.ImageIOAPNGTest-mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		32B66A4C203A80F400E06B64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ImageIOAPNGTest-macTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dreampiggy.ImageIOAPNGTest-macTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageIOAPNGTest-mac.app/Contents/MacOS/ImageIOAPNGTest-mac";
+			};
+			name = Debug;
+		};
+		32B66A4D203A80F400E06B64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ImageIOAPNGTest-macTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dreampiggy.ImageIOAPNGTest-macTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageIOAPNGTest-mac.app/Contents/MacOS/ImageIOAPNGTest-mac";
+			};
+			name = Release;
+		};
+		32B66A4F203A80F400E06B64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ImageIOAPNGTest-macUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dreampiggy.ImageIOAPNGTest-macUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ImageIOAPNGTest-mac";
+			};
+			name = Debug;
+		};
+		32B66A50203A80F400E06B64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ImageIOAPNGTest-macUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dreampiggy.ImageIOAPNGTest-macUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ImageIOAPNGTest-mac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32B66A19203A80F400E06B64 /* Build configuration list for PBXProject "ImageIOAPNGTest-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B66A46203A80F400E06B64 /* Debug */,
+				32B66A47203A80F400E06B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32B66A48203A80F400E06B64 /* Build configuration list for PBXNativeTarget "ImageIOAPNGTest-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B66A49203A80F400E06B64 /* Debug */,
+				32B66A4A203A80F400E06B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32B66A4B203A80F400E06B64 /* Build configuration list for PBXNativeTarget "ImageIOAPNGTest-macTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B66A4C203A80F400E06B64 /* Debug */,
+				32B66A4D203A80F400E06B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32B66A4E203A80F400E06B64 /* Build configuration list for PBXNativeTarget "ImageIOAPNGTest-macUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B66A4F203A80F400E06B64 /* Debug */,
+				32B66A50203A80F400E06B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32B66A16203A80F400E06B64 /* Project object */;
+}
