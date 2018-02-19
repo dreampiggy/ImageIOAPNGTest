@@ -30,6 +30,7 @@
     NSData *data = [NSData dataWithContentsOfFile:path];
     NSAssert(data, @"data");
     CGImageSourceRef source = CGImageSourceCreateWithData((__bridge CFDataRef)data, NULL);
+    NSAssert(source, @"source");
     NSUInteger count = CGImageSourceGetCount(source);
     NSAssert(count > 1, @"animated");
 }
@@ -73,7 +74,7 @@
     CGImageSourceRef source = CGImageSourceCreateWithData((__bridge CFDataRef)data, NULL);
     NSAssert(source, @"source");
     NSUInteger count = CGImageSourceGetCount(source);
-    NSAssert(count > 1, @"animated");
+    NSAssert(count > 1, @"animated"); // <- This fail on macOS too. And also trigger the same `LogDebug()` above
 }
 
 
